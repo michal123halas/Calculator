@@ -1,0 +1,170 @@
+.calc {
+  background-color: #f7f7f7 h2;
+  background-color-text-align: center;
+  padding: 80px 0;
+}
+
+.calc__columns {
+  max-width: 865px;
+  margin: 50px auto 0;
+  display: flex;
+}
+
+.calc__form {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.calc__input input, .calc__select .select__input {
+  color: #95989a;
+  background-color: #fff;
+  border: 1px solid #08a6e4;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 11px 20px;
+  font-size: .8125rem;
+  line-height: 1em;
+  box-shadow: 0 3px 6px #707070;
+}
+
+.calc__input input::placeholder {
+  color: #95989a;
+}
+
+.calc__select {
+  position: relative;
+}
+
+.calc__select .select__input {
+  vertical-align: middle;
+  cursor: pointer;
+  height: 40px;
+  padding: 13px 20px;
+  position: relative;
+}
+
+.calc__select.open .select__input:after {
+  transform: rotate(180deg);
+}
+
+.calc .form__checkbox .consent__text {
+  padding-top: 4px;
+}
+
+.calc__summary {
+  flex-direction: column;
+  width: 50%;
+  margin-left: 20px;
+  display: flex;
+}
+
+.calc__summary .summary__total, .calc__summary .list__item {
+  color: #fff;
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .875rem;
+  display: none;
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.calc__summary .summary__total {
+  background-color: #08a6e4;
+  align-self: flex-end;
+  width: 50%;
+  margin-top: 22px;
+  padding: 8px 20px;
+}
+
+.calc__summary .summary__total .total__price {
+  text-align: left;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.calc__summary .list__item {
+  background-color: #55dfb4;
+  margin-bottom: 8px;
+  padding: 6px 20px;
+}
+
+.calc__summary .list__item .item__price {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.select__dropdown {
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #eb476e;
+  border-radius: 6px;
+  width: 100%;
+  position: relative;
+  bottom: 270px;
+  overflow: hidden;
+}
+
+.select__dropdown li {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 13px;
+}
+
+.select__dropdown li:hover {
+  content: "";
+  background-color: #f7f7f7;
+}
+
+.form__checkbox input:checked ~ .checkbox {
+  background-image: url("Checkmark.53e088df.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border: 1px solid #95989a;
+  border-radius: 4px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form__checkbox {
+  position: relative;
+  bottom: -10px;
+}
+
+.form__checkbox input {
+  cursor: pointer;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.form__checkbox .checkbox {
+  background-color: #fff;
+  border: 1px solid #95989a;
+  border-radius: 4px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form__checkbox p {
+  margin: 50px;
+}
+
+.temporaryNamber1, .temporaryNamber2, .temporaryNamber3, .temporaryNamber4, .temporaryNamber5, .temporaryNamber6, .temporaryNamber7 {
+  background-color: #55dfb4;
+  width: 200px;
+  height: 200px;
+  font-size: 80px;
+  font-weight: 700;
+  display: none;
+}
+
+/*# sourceMappingURL=index.8353e49f.css.map */
