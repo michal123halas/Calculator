@@ -1,23 +1,16 @@
 
-
-
-
-
-
-
-
-
-
 const selectItemOne =  document.querySelector("#products");
 const selectItemTwo =  document.querySelector("#orders");
 const selectItemThree =  document.querySelector("#package");
 const selectItemFour =  document.querySelector("#accounting");
 const selectItemFive =  document.querySelector("#terminal");
+
 const item =  document.querySelector(".calc__summary ul");
 let selectList =  document.querySelector(".select__dropdown");
 let selectListText =  document.querySelector(".select__input");
 const totalBill =  document.querySelector("#total-price");
 const aaa = document.querySelector("body");
+
 const temporaryNamber1 = document.querySelector(".temporaryNamber1");
 const temporaryNamber2 = document.querySelector(".temporaryNamber2");
 const temporaryNamber3 = document.querySelector(".temporaryNamber3");
@@ -25,12 +18,6 @@ const temporaryNamber4 = document.querySelector(".temporaryNamber4");
 const temporaryNamber5 = document.querySelector(".temporaryNamber5");
 const temporaryNamber6 = document.querySelector(".temporaryNamber6");
 const temporaryNamber7 = document.querySelector(".temporaryNamber7");
-
-
-
-
-
-
 
 
 
@@ -173,14 +160,14 @@ selectItemFive.addEventListener("input",function (){
     }
 })
 aaa.addEventListener("click",function (){
-  const sum1 = temporaryNamber1.innerText
-    const sum2 = temporaryNamber2.innerText
-    const sum3 = temporaryNamber3.innerText
-    const sum4 = temporaryNamber4.innerText
-    const sum5 = temporaryNamber5.innerText
-    const sum6 = temporaryNamber6.innerText
-    const sum7 = temporaryNamber7.innerText
-    const array = [+sum1,+sum2,+sum3,+sum4,+sum5,+sum6,+sum7]
+    const sum1 = temporaryNamber1.innerText * 1;
+    const sum2 = temporaryNamber2.innerText * 1;
+    const sum3 = temporaryNamber3.innerText * 1;
+    const sum4 = temporaryNamber4.innerText * 1;
+    const sum5 = temporaryNamber5.innerText * 1;
+    const sum6 = temporaryNamber6.innerText * 1;
+    const sum7 = temporaryNamber7.innerText * 1;
+    const array = [sum1,sum2,sum3,sum4,sum5,sum6,sum7]
     console.log(array)
 
 

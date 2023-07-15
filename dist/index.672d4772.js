@@ -107,21 +107,21 @@ selectItemFive.addEventListener("input", function() {
     } else ItemFive.style.display = "none";
 });
 aaa.addEventListener("click", function() {
-    const sum1 = temporaryNamber1.innerText;
-    const sum2 = temporaryNamber2.innerText;
-    const sum3 = temporaryNamber3.innerText;
-    const sum4 = temporaryNamber4.innerText;
-    const sum5 = temporaryNamber5.innerText;
-    const sum6 = temporaryNamber6.innerText;
-    const sum7 = temporaryNamber7.innerText;
+    const sum1 = temporaryNamber1.innerText * 1;
+    const sum2 = temporaryNamber2.innerText * 1;
+    const sum3 = temporaryNamber3.innerText * 1;
+    const sum4 = temporaryNamber4.innerText * 1;
+    const sum5 = temporaryNamber5.innerText * 1;
+    const sum6 = temporaryNamber6.innerText * 1;
+    const sum7 = temporaryNamber7.innerText * 1;
     const array = [
-        +sum1,
-        +sum2,
-        +sum3,
-        +sum4,
-        +sum5,
-        +sum6,
-        +sum7
+        sum1,
+        sum2,
+        sum3,
+        sum4,
+        sum5,
+        sum6,
+        sum7
     ];
     console.log(array);
     const sum = array.reduce(function(total, item) {
