@@ -181,22 +181,6 @@ aaa.addEventListener("click",function (){
 
 
 
-// aaa.addEventListener("click",function (){
-//     const convertedArray = array.map(function(item) {
-//         if (typeof item === "string") {
-//             return parseFloat(item);
-//         }
-//         return item;
-//     });
-//
-//
-//     let sum34 = convertedArray.reduce(function(total, item) {
-//         return total + item;
-//     })
-//
-//     totalBill.innerText = sum34;
-//
-//
-// })
+
 
 
