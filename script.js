@@ -165,7 +165,7 @@ aaa.addEventListener("click",function (){
     const sum3 = temporaryNamber3.innerText * 1;
     const sum6 = temporaryNamber6.innerText * 1;
     const sum7 = temporaryNamber7.innerText * 1;
-    const array = [sum1,sum2,sum3,,sum6,sum7]
+    const array = [sum1,sum2,sum3,sum6,sum7]
     console.log(array)
 
 
