@@ -97,7 +97,7 @@ selectItemThree.addEventListener("click",function (){
 
         basicBill.innerText = selectChildTwo.innerText;
         const basicPrice2 = 25;
-        temporaryNamber4.innerText = basicPrice2
+        temporaryNamber3.innerText = basicPrice2
         basicBill2.innerText = basicPrice2+"$"//cena
         totalBill.style.display = "flex"
         selectList.style.display = "none"
@@ -109,7 +109,7 @@ selectItemThree.addEventListener("click",function (){
         const basicBill2 = ItemThree.children[2];
         basicBill.innerText = selectChildThree.innerText;
         const basicPrice3 = 30;
-        temporaryNamber5.innerText = basicPrice3
+        temporaryNamber3.innerText = basicPrice3
         basicBill2.innerText = basicPrice3+"$"//cena
         totalBill.style.display = "flex"
         selectList.style.display = "none"
@@ -163,11 +163,9 @@ aaa.addEventListener("click",function (){
     const sum1 = temporaryNamber1.innerText * 1;
     const sum2 = temporaryNamber2.innerText * 1;
     const sum3 = temporaryNamber3.innerText * 1;
-    const sum4 = temporaryNamber4.innerText * 1;
-    const sum5 = temporaryNamber5.innerText * 1;
     const sum6 = temporaryNamber6.innerText * 1;
     const sum7 = temporaryNamber7.innerText * 1;
-    const array = [sum1,sum2,sum3,sum4,sum5,sum6,sum7]
+    const array = [sum1,sum2,sum3,,sum6,sum7]
     console.log(array)
 
 
